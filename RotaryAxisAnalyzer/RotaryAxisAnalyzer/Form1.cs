@@ -29,7 +29,7 @@ namespace RotaryAxisAnalyzer
 
         private void Main_Form_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
