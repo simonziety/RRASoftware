@@ -29,31 +29,42 @@
         private void InitializeComponent()
         {
             this.AttocubePanel = new System.Windows.Forms.Panel();
+            this.AttocubeLabel = new System.Windows.Forms.Label();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.SettingMenuPanel = new System.Windows.Forms.Panel();
+            this.SettingLabel = new System.Windows.Forms.Label();
             this.FileStorageMenuPanel = new System.Windows.Forms.Panel();
+            this.FileStorageLabel1 = new System.Windows.Forms.Label();
             this.ImportDataMenuPanel = new System.Windows.Forms.Panel();
+            this.ImportDataLabel = new System.Windows.Forms.Label();
             this.LiveDataMenuPanel = new System.Windows.Forms.Panel();
+            this.LiveDataLabel = new System.Windows.Forms.Label();
             this.PlotMenuPanel = new System.Windows.Forms.Panel();
+            this.PlotLabel = new System.Windows.Forms.Label();
             this.TitleMenuPanel2 = new System.Windows.Forms.Panel();
+            this.DateLabel = new System.Windows.Forms.Label();
             this.TitleMenuPanel1 = new System.Windows.Forms.Panel();
             this.NameLabel = new System.Windows.Forms.Label();
-            this.TableMainPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.TitlePanel1 = new System.Windows.Forms.Panel();
             this.TitlePanel2 = new System.Windows.Forms.Panel();
-            this.TitlePanel3 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.AttocubeLabel = new System.Windows.Forms.Label();
-            this.DateLabel = new System.Windows.Forms.Label();
-            this.PlotLabel = new System.Windows.Forms.Label();
-            this.LiveDataLabel = new System.Windows.Forms.Label();
-            this.ImportDataLabel = new System.Windows.Forms.Label();
-            this.FileStorageLabel1 = new System.Windows.Forms.Label();
-            this.SettingLabel = new System.Windows.Forms.Label();
-            this.OscLabel = new System.Windows.Forms.Label();
             this.RSLabel = new System.Windows.Forms.Label();
-            this.FFTLabel = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.FileStorageLabel2 = new System.Windows.Forms.Label();
+            this.TitlePanel3 = new System.Windows.Forms.Panel();
+            this.OscLabel = new System.Windows.Forms.Label();
+            this.TitlePanel1 = new System.Windows.Forms.Panel();
+            this.FFTLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.AttocubePanel.SuspendLayout();
             this.MenuPanel.SuspendLayout();
             this.SettingMenuPanel.SuspendLayout();
@@ -63,11 +74,13 @@
             this.PlotMenuPanel.SuspendLayout();
             this.TitleMenuPanel2.SuspendLayout();
             this.TitleMenuPanel1.SuspendLayout();
-            this.TableMainPanel.SuspendLayout();
-            this.TitlePanel1.SuspendLayout();
             this.TitlePanel2.SuspendLayout();
-            this.TitlePanel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.TitlePanel3.SuspendLayout();
+            this.TitlePanel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // AttocubePanel
@@ -79,8 +92,20 @@
             this.AttocubePanel.Location = new System.Drawing.Point(0, 0);
             this.AttocubePanel.Margin = new System.Windows.Forms.Padding(0);
             this.AttocubePanel.Name = "AttocubePanel";
-            this.AttocubePanel.Size = new System.Drawing.Size(1306, 30);
+            this.AttocubePanel.Size = new System.Drawing.Size(1252, 30);
             this.AttocubePanel.TabIndex = 0;
+            // 
+            // AttocubeLabel
+            // 
+            this.AttocubeLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AttocubeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AttocubeLabel.ForeColor = System.Drawing.Color.Snow;
+            this.AttocubeLabel.Location = new System.Drawing.Point(0, 0);
+            this.AttocubeLabel.Name = "AttocubeLabel";
+            this.AttocubeLabel.Size = new System.Drawing.Size(1250, 28);
+            this.AttocubeLabel.TabIndex = 0;
+            this.AttocubeLabel.Text = "Attocube";
+            this.AttocubeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MenuPanel
             // 
@@ -97,7 +122,7 @@
             this.MenuPanel.Location = new System.Drawing.Point(0, 30);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(0);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(178, 631);
+            this.MenuPanel.Size = new System.Drawing.Size(178, 651);
             this.MenuPanel.TabIndex = 1;
             // 
             // SettingMenuPanel
@@ -109,6 +134,17 @@
             this.SettingMenuPanel.Size = new System.Drawing.Size(153, 43);
             this.SettingMenuPanel.TabIndex = 6;
             // 
+            // SettingLabel
+            // 
+            this.SettingLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SettingLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SettingLabel.Location = new System.Drawing.Point(0, 0);
+            this.SettingLabel.Name = "SettingLabel";
+            this.SettingLabel.Size = new System.Drawing.Size(153, 43);
+            this.SettingLabel.TabIndex = 0;
+            this.SettingLabel.Text = "Setting";
+            this.SettingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FileStorageMenuPanel
             // 
             this.FileStorageMenuPanel.BackColor = System.Drawing.Color.Snow;
@@ -117,6 +153,17 @@
             this.FileStorageMenuPanel.Name = "FileStorageMenuPanel";
             this.FileStorageMenuPanel.Size = new System.Drawing.Size(153, 43);
             this.FileStorageMenuPanel.TabIndex = 5;
+            // 
+            // FileStorageLabel1
+            // 
+            this.FileStorageLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FileStorageLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FileStorageLabel1.Location = new System.Drawing.Point(0, 0);
+            this.FileStorageLabel1.Name = "FileStorageLabel1";
+            this.FileStorageLabel1.Size = new System.Drawing.Size(153, 43);
+            this.FileStorageLabel1.TabIndex = 0;
+            this.FileStorageLabel1.Text = "File Storage";
+            this.FileStorageLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ImportDataMenuPanel
             // 
@@ -127,6 +174,17 @@
             this.ImportDataMenuPanel.Size = new System.Drawing.Size(153, 43);
             this.ImportDataMenuPanel.TabIndex = 4;
             // 
+            // ImportDataLabel
+            // 
+            this.ImportDataLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImportDataLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ImportDataLabel.Location = new System.Drawing.Point(0, 0);
+            this.ImportDataLabel.Name = "ImportDataLabel";
+            this.ImportDataLabel.Size = new System.Drawing.Size(153, 43);
+            this.ImportDataLabel.TabIndex = 0;
+            this.ImportDataLabel.Text = "Import Data";
+            this.ImportDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // LiveDataMenuPanel
             // 
             this.LiveDataMenuPanel.BackColor = System.Drawing.Color.Snow;
@@ -135,6 +193,17 @@
             this.LiveDataMenuPanel.Name = "LiveDataMenuPanel";
             this.LiveDataMenuPanel.Size = new System.Drawing.Size(153, 43);
             this.LiveDataMenuPanel.TabIndex = 3;
+            // 
+            // LiveDataLabel
+            // 
+            this.LiveDataLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LiveDataLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LiveDataLabel.Location = new System.Drawing.Point(0, 0);
+            this.LiveDataLabel.Name = "LiveDataLabel";
+            this.LiveDataLabel.Size = new System.Drawing.Size(153, 43);
+            this.LiveDataLabel.TabIndex = 0;
+            this.LiveDataLabel.Text = "Live Data";
+            this.LiveDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PlotMenuPanel
             // 
@@ -145,6 +214,17 @@
             this.PlotMenuPanel.Size = new System.Drawing.Size(153, 43);
             this.PlotMenuPanel.TabIndex = 2;
             // 
+            // PlotLabel
+            // 
+            this.PlotLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlotLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PlotLabel.Location = new System.Drawing.Point(0, 0);
+            this.PlotLabel.Name = "PlotLabel";
+            this.PlotLabel.Size = new System.Drawing.Size(153, 43);
+            this.PlotLabel.TabIndex = 0;
+            this.PlotLabel.Text = "Plot";
+            this.PlotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // TitleMenuPanel2
             // 
             this.TitleMenuPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
@@ -153,6 +233,16 @@
             this.TitleMenuPanel2.Name = "TitleMenuPanel2";
             this.TitleMenuPanel2.Size = new System.Drawing.Size(153, 43);
             this.TitleMenuPanel2.TabIndex = 1;
+            // 
+            // DateLabel
+            // 
+            this.DateLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DateLabel.Location = new System.Drawing.Point(0, 0);
+            this.DateLabel.Name = "DateLabel";
+            this.DateLabel.Size = new System.Drawing.Size(153, 43);
+            this.DateLabel.TabIndex = 0;
+            this.DateLabel.Text = "Date";
+            this.DateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TitleMenuPanel1
             // 
@@ -177,193 +267,281 @@
             this.NameLabel.UseMnemonic = false;
             this.NameLabel.Click += new System.EventHandler(this.NameLabel_Click);
             // 
-            // TableMainPanel
-            // 
-            this.TableMainPanel.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.TableMainPanel.ColumnCount = 2;
-            this.TableMainPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableMainPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableMainPanel.Controls.Add(this.TitlePanel1, 0, 0);
-            this.TableMainPanel.Controls.Add(this.TitlePanel2, 1, 0);
-            this.TableMainPanel.Controls.Add(this.TitlePanel3, 0, 1);
-            this.TableMainPanel.Controls.Add(this.panel1, 1, 1);
-            this.TableMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TableMainPanel.Location = new System.Drawing.Point(178, 30);
-            this.TableMainPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.TableMainPanel.Name = "TableMainPanel";
-            this.TableMainPanel.RowCount = 2;
-            this.TableMainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableMainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableMainPanel.Size = new System.Drawing.Size(1128, 631);
-            this.TableMainPanel.TabIndex = 2;
-            // 
-            // TitlePanel1
-            // 
-            this.TitlePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
-            this.TitlePanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TitlePanel1.Controls.Add(this.OscLabel);
-            this.TitlePanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TitlePanel1.Location = new System.Drawing.Point(1, 1);
-            this.TitlePanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.TitlePanel1.Name = "TitlePanel1";
-            this.TitlePanel1.Size = new System.Drawing.Size(562, 30);
-            this.TitlePanel1.TabIndex = 0;
-            // 
             // TitlePanel2
             // 
             this.TitlePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
             this.TitlePanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TitlePanel2.Controls.Add(this.RSLabel);
-            this.TitlePanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TitlePanel2.Location = new System.Drawing.Point(564, 1);
+            this.TitlePanel2.Controls.Add(this.FileStorageLabel2);
+            this.TitlePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TitlePanel2.Location = new System.Drawing.Point(537, 325);
             this.TitlePanel2.Margin = new System.Windows.Forms.Padding(0);
             this.TitlePanel2.Name = "TitlePanel2";
-            this.TitlePanel2.Size = new System.Drawing.Size(563, 30);
+            this.TitlePanel2.Size = new System.Drawing.Size(537, 30);
             this.TitlePanel2.TabIndex = 1;
-            // 
-            // TitlePanel3
-            // 
-            this.TitlePanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
-            this.TitlePanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TitlePanel3.Controls.Add(this.FFTLabel);
-            this.TitlePanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TitlePanel3.Location = new System.Drawing.Point(1, 316);
-            this.TitlePanel3.Margin = new System.Windows.Forms.Padding(0);
-            this.TitlePanel3.Name = "TitlePanel3";
-            this.TitlePanel3.Size = new System.Drawing.Size(562, 30);
-            this.TitlePanel3.TabIndex = 2;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.FileStorageLabel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(564, 316);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(563, 30);
-            this.panel1.TabIndex = 3;
-            // 
-            // AttocubeLabel
-            // 
-            this.AttocubeLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AttocubeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AttocubeLabel.ForeColor = System.Drawing.Color.Snow;
-            this.AttocubeLabel.Location = new System.Drawing.Point(0, 0);
-            this.AttocubeLabel.Name = "AttocubeLabel";
-            this.AttocubeLabel.Size = new System.Drawing.Size(1304, 28);
-            this.AttocubeLabel.TabIndex = 0;
-            this.AttocubeLabel.Text = "Attocube";
-            this.AttocubeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // DateLabel
-            // 
-            this.DateLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DateLabel.Location = new System.Drawing.Point(0, 0);
-            this.DateLabel.Name = "DateLabel";
-            this.DateLabel.Size = new System.Drawing.Size(153, 43);
-            this.DateLabel.TabIndex = 0;
-            this.DateLabel.Text = "Date";
-            this.DateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PlotLabel
-            // 
-            this.PlotLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PlotLabel.Location = new System.Drawing.Point(0, 0);
-            this.PlotLabel.Name = "PlotLabel";
-            this.PlotLabel.Size = new System.Drawing.Size(153, 43);
-            this.PlotLabel.TabIndex = 0;
-            this.PlotLabel.Text = "Plot";
-            this.PlotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LiveDataLabel
-            // 
-            this.LiveDataLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LiveDataLabel.Location = new System.Drawing.Point(0, 0);
-            this.LiveDataLabel.Name = "LiveDataLabel";
-            this.LiveDataLabel.Size = new System.Drawing.Size(153, 43);
-            this.LiveDataLabel.TabIndex = 0;
-            this.LiveDataLabel.Text = "Live Data";
-            this.LiveDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ImportDataLabel
-            // 
-            this.ImportDataLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ImportDataLabel.Location = new System.Drawing.Point(0, 0);
-            this.ImportDataLabel.Name = "ImportDataLabel";
-            this.ImportDataLabel.Size = new System.Drawing.Size(153, 43);
-            this.ImportDataLabel.TabIndex = 0;
-            this.ImportDataLabel.Text = "Import Data";
-            this.ImportDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // FileStorageLabel1
-            // 
-            this.FileStorageLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FileStorageLabel1.Location = new System.Drawing.Point(0, 0);
-            this.FileStorageLabel1.Name = "FileStorageLabel1";
-            this.FileStorageLabel1.Size = new System.Drawing.Size(153, 43);
-            this.FileStorageLabel1.TabIndex = 0;
-            this.FileStorageLabel1.Text = "File Storage";
-            this.FileStorageLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // SettingLabel
-            // 
-            this.SettingLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SettingLabel.Location = new System.Drawing.Point(0, 0);
-            this.SettingLabel.Name = "SettingLabel";
-            this.SettingLabel.Size = new System.Drawing.Size(153, 43);
-            this.SettingLabel.TabIndex = 0;
-            this.SettingLabel.Text = "Setting";
-            this.SettingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // OscLabel
-            // 
-            this.OscLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OscLabel.Location = new System.Drawing.Point(0, 0);
-            this.OscLabel.Name = "OscLabel";
-            this.OscLabel.Size = new System.Drawing.Size(560, 28);
-            this.OscLabel.TabIndex = 0;
-            this.OscLabel.Text = "Oscilloscope";
-            this.OscLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RSLabel
             // 
             this.RSLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RSLabel.Location = new System.Drawing.Point(0, 0);
+            this.RSLabel.Margin = new System.Windows.Forms.Padding(0);
             this.RSLabel.Name = "RSLabel";
-            this.RSLabel.Size = new System.Drawing.Size(561, 28);
+            this.RSLabel.Size = new System.Drawing.Size(535, 28);
             this.RSLabel.TabIndex = 0;
             this.RSLabel.Text = "Radial - Rotating Sensitive";
             this.RSLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FFTLabel
+            // panel1
             // 
-            this.FFTLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FFTLabel.Location = new System.Drawing.Point(0, 0);
-            this.FFTLabel.Name = "FFTLabel";
-            this.FFTLabel.Size = new System.Drawing.Size(560, 28);
-            this.FFTLabel.TabIndex = 0;
-            this.FFTLabel.Text = "Fourier Transform";
-            this.FFTLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.RSLabel);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(537, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(537, 30);
+            this.panel1.TabIndex = 3;
             // 
             // FileStorageLabel2
             // 
             this.FileStorageLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FileStorageLabel2.Location = new System.Drawing.Point(0, 0);
+            this.FileStorageLabel2.Margin = new System.Windows.Forms.Padding(0);
             this.FileStorageLabel2.Name = "FileStorageLabel2";
-            this.FileStorageLabel2.Size = new System.Drawing.Size(561, 28);
+            this.FileStorageLabel2.Size = new System.Drawing.Size(535, 28);
             this.FileStorageLabel2.TabIndex = 0;
             this.FileStorageLabel2.Text = "File Storage";
             this.FileStorageLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TitlePanel3
+            // 
+            this.TitlePanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
+            this.TitlePanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TitlePanel3.Controls.Add(this.OscLabel);
+            this.TitlePanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TitlePanel3.Location = new System.Drawing.Point(0, 0);
+            this.TitlePanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.TitlePanel3.Name = "TitlePanel3";
+            this.TitlePanel3.Size = new System.Drawing.Size(537, 30);
+            this.TitlePanel3.TabIndex = 2;
+            // 
+            // OscLabel
+            // 
+            this.OscLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.OscLabel.Location = new System.Drawing.Point(0, 0);
+            this.OscLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.OscLabel.Name = "OscLabel";
+            this.OscLabel.Size = new System.Drawing.Size(535, 28);
+            this.OscLabel.TabIndex = 0;
+            this.OscLabel.Text = "Oscilloscope";
+            this.OscLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TitlePanel1
+            // 
+            this.TitlePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(184)))), ((int)(((byte)(133)))));
+            this.TitlePanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TitlePanel1.Controls.Add(this.FFTLabel);
+            this.TitlePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TitlePanel1.Location = new System.Drawing.Point(0, 325);
+            this.TitlePanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.TitlePanel1.Name = "TitlePanel1";
+            this.TitlePanel1.Size = new System.Drawing.Size(537, 30);
+            this.TitlePanel1.TabIndex = 0;
+            // 
+            // FFTLabel
+            // 
+            this.FFTLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FFTLabel.Location = new System.Drawing.Point(0, 0);
+            this.FFTLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.FFTLabel.Name = "FFTLabel";
+            this.FFTLabel.Size = new System.Drawing.Size(535, 28);
+            this.FFTLabel.TabIndex = 0;
+            this.FFTLabel.Text = "Fourier Transform";
+            this.FFTLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.TitlePanel2, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.TitlePanel3, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.TitlePanel1, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel3, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.panel5, 1, 4);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(178, 30);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 6;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1074, 651);
+            this.tableLayoutPanel1.TabIndex = 2;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.78771F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.21229F));
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 60);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(537, 265);
+            this.tableLayoutPanel2.TabIndex = 4;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.iconButton1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.iconButton2, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.iconButton3, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.iconButton4, 0, 3);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 4;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(117, 265);
+            this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton1.IconColor = System.Drawing.Color.Black;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(0, 0);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(117, 66);
+            this.iconButton1.TabIndex = 1;
+            this.iconButton1.Text = "iconButton1";
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.Location = new System.Drawing.Point(0, 66);
+            this.iconButton2.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(117, 66);
+            this.iconButton2.TabIndex = 2;
+            this.iconButton2.Text = "iconButton2";
+            this.iconButton2.UseVisualStyleBackColor = true;
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton3.IconColor = System.Drawing.Color.Black;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.Location = new System.Drawing.Point(0, 132);
+            this.iconButton3.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(117, 66);
+            this.iconButton3.TabIndex = 3;
+            this.iconButton3.Text = "iconButton3";
+            this.iconButton3.UseVisualStyleBackColor = true;
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton4.IconColor = System.Drawing.Color.Black;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.Location = new System.Drawing.Point(0, 198);
+            this.iconButton4.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(117, 67);
+            this.iconButton4.TabIndex = 4;
+            this.iconButton4.Text = "iconButton4";
+            this.iconButton4.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 30);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(537, 30);
+            this.panel2.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(537, 30);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(537, 30);
+            this.panel3.TabIndex = 6;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 355);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(537, 30);
+            this.panel4.TabIndex = 7;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(537, 355);
+            this.panel5.Margin = new System.Windows.Forms.Padding(0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(537, 30);
+            this.panel5.TabIndex = 8;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel4.ColumnCount = 1;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(120, 3);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(414, 259);
+            this.tableLayoutPanel4.TabIndex = 1;
             // 
             // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(1306, 661);
-            this.Controls.Add(this.TableMainPanel);
+            this.ClientSize = new System.Drawing.Size(1252, 681);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.AttocubePanel);
             this.Name = "Main_Form";
@@ -382,11 +560,13 @@
             this.PlotMenuPanel.ResumeLayout(false);
             this.TitleMenuPanel2.ResumeLayout(false);
             this.TitleMenuPanel1.ResumeLayout(false);
-            this.TableMainPanel.ResumeLayout(false);
-            this.TitlePanel1.ResumeLayout(false);
             this.TitlePanel2.ResumeLayout(false);
-            this.TitlePanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.TitlePanel3.ResumeLayout(false);
+            this.TitlePanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -395,11 +575,6 @@
 
         private System.Windows.Forms.Panel AttocubePanel;
         private System.Windows.Forms.Panel MenuPanel;
-        private System.Windows.Forms.TableLayoutPanel TableMainPanel;
-        private System.Windows.Forms.Panel TitlePanel1;
-        private System.Windows.Forms.Panel TitlePanel2;
-        private System.Windows.Forms.Panel TitlePanel3;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PlotMenuPanel;
         private System.Windows.Forms.Panel TitleMenuPanel2;
         private System.Windows.Forms.Panel TitleMenuPanel1;
@@ -415,10 +590,26 @@
         private System.Windows.Forms.Label LiveDataLabel;
         private System.Windows.Forms.Label PlotLabel;
         private System.Windows.Forms.Label DateLabel;
-        private System.Windows.Forms.Label OscLabel;
-        private System.Windows.Forms.Label RSLabel;
-        private System.Windows.Forms.Label FFTLabel;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label FileStorageLabel2;
+        private System.Windows.Forms.Panel TitlePanel2;
+        private System.Windows.Forms.Label RSLabel;
+        private System.Windows.Forms.Panel TitlePanel1;
+        private System.Windows.Forms.Label OscLabel;
+        private System.Windows.Forms.Panel TitlePanel3;
+        private System.Windows.Forms.Label FFTLabel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
     }
 }
 
