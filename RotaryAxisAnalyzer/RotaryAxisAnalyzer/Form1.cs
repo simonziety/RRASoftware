@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace RotaryAxisAnalyzer
 {
+
     public partial class Main_Form : Form
     {
         public Main_Form()
         {
             InitializeComponent();
+            timer1.Start();
         }
 
         private void NameLabel_Click(object sender, EventArgs e)
@@ -30,6 +32,23 @@ namespace RotaryAxisAnalyzer
         private void Main_Form_Load(object sender, EventArgs e)
         {
           
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DateLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        //Date Time
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime dateTime = DateTime.Now;
+            this.DateLabel.Text = dateTime.ToString();
         }
     }
 }
