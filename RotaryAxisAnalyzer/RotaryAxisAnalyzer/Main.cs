@@ -1559,6 +1559,7 @@ namespace RotaryAxisAnalyzer
             var model = CreatePlotModel(t, channel1, channel2, channel3);
             plotView.Model = model;
         }
+        //lklkasdw
 
         private void label1_Click(object sender, EventArgs e)
         {
